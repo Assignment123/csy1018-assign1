@@ -1,0 +1,63 @@
+body{  font-style: italic; font-size: 20px; color: white; background-image: url(background1.jpg); background-repeat: repeat;
+}
+header{
+  text-align: center; padding: 3%;
+}
+header h2{
+  color: black;
+  font-family: "Gabriola", Gabriola, serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+margin: 0; padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+header ul{
+  display: flex; flex-direction: row;
+}
+header ul li{
+  margin: 1%; padding: 0.2%; flex-grow: 1; background: #BA55D3; color:black; border-radius: 18%; font-family: "Bradley Hand ITC", Bradley,serif;
+  font-style: normal;
+}
+header ul li a{
+  color: black;
+}
+header ul li:hover{
+  background:  #9370DB;
+}
+section{
+   display: flex; flex-direction: row;  background-image: url("image3.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.photo img{
+  width: 300px; margin-left: 2%; padding: 2%;
+}
+.bottom{
+  width:75%;
+  margin-left: 2%;
+  color: black;
+}
+
+.bottom p{
+  color: black;
+}
+footer{
+  display: flex; flex-direction: row;
+}
+.left{
+  width: 50%;
+}
+.left img{
+  margin: top;
+}
+.right{
+  width: 50%;
+}
+.right h3{
+  color: black; text-align: right;
+}
