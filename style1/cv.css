@@ -1,5 +1,6 @@
 body{  font-style: italic; font-size: 20px; color: white; background-image: url("image3.jpg");
 background-repeat: no-repeat;
+background-attachment: fixed;
 background-size: cover;
 }
 header{
@@ -31,13 +32,24 @@ header ul li a{
 header ul li:hover{
   background:  #9370DB;
 }
-
-.form input[type=text]{
-  height: 50%;
+section{
+  color: black; display: flex; flex-direction: row;
+}
+.bottom{
+  background: grey;
+  border-radius: 10px;
+  width: 60%;
+ padding: 1%;
+  }
+.table{
+  width: 20%;
+}
+.top{
+  width: 20%;
+}
+.right{
+  text-align: right; color: white;
 }
 footer{
   margin-top: 5%;
-}
-.right{
-  text-align: right; color: black;
 }

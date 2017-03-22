@@ -31,3 +31,9 @@ header ul li a{
 header ul li:hover{
   background:  #9370DB;
 }
+footer{
+  margin-top: 5%;
+}
+.right{
+  text-align: right; color: white;
+}
