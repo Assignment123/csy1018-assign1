@@ -33,23 +33,52 @@ header ul li:hover{
   background:  #9370DB;
 }
 section{
-  color: black; display: flex; flex-direction: row;
+  color: black; display: flex; flex-direction: row; justify-content: space-between;
 }
-.bottom{
-  background: grey;
+
+.top{
+  margin:1%;
   border-radius: 10px;
   width: 60%;
  padding: 1%;
+ background:#DA70D6;
+
+}
+.bottom{
+  margin:1%;
+  border-radius: 10px;
+  width: 60%;
+ padding: 1%;
+ background:#DA70D6;
   }
-.table{
-  width: 20%;
-}
-.top{
-  width: 20%;
-}
+
 .right{
-  text-align: right; color: white;
+  margin:1%;
+ color: black;
+  border-radius: 10px;
+  width: 60%;
+ padding: 1%;
+background:#DA70D6;
+}
+.middle{
+  margin:1%;
+  border-radius: 10px;
+  width: 60%;
+ padding: 1%;
+ background:#DA70D6;
+  }
+
+.left{
+  margin:1%;
+ color: black;
+  border-radius: 10px;
+  width: 60%;
+ padding: 1%;
+ background:#DA70D6;
 }
 footer{
-  margin-top: 5%;
-}
+   margin-top: 5%;
+ }
+ .below{
+   text-align: right; color: black;
+ }

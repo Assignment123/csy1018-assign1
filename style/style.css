@@ -49,15 +49,15 @@ section{
 footer{
   display: flex; flex-direction: row; margin-top: 5%;
 }
-.left{
+.down{
   width: 50%;
 }
-.left img{
+.below img{
   margin: top;
 }
-.right{
-  width: 50%;
+.below{
+  width: 50%; text-align: right; color: black;
 }
-.right h3{
-  color: white; text-align: right;
+.below h3{
+  color: black; text-align: right;
 }
