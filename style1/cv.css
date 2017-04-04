@@ -42,7 +42,9 @@ section{
   width: 60%;
  padding: 1%;
  background:#DA70D6;
-
+}
+.top:hover{
+  background:  #9370DB;
 }
 .bottom{
   margin:1%;
@@ -50,6 +52,9 @@ section{
   width: 60%;
  padding: 1%;
  background:#DA70D6;
+  }
+  .bottom:hover{
+    background:  #9370DB;
   }
 
 .right{
@@ -60,6 +65,9 @@ section{
  padding: 1%;
 background:#DA70D6;
 }
+.right:hover{
+  background:  #9370DB;
+}
 .middle{
   margin:1%;
   border-radius: 10px;
@@ -67,7 +75,9 @@ background:#DA70D6;
  padding: 1%;
  background:#DA70D6;
   }
-
+  .middle:hover{
+    background:  #9370DB;
+  }
 .left{
   margin:1%;
  color: black;
@@ -75,6 +85,9 @@ background:#DA70D6;
   width: 60%;
  padding: 1%;
  background:#DA70D6;
+}
+.left:hover{
+  background:  #9370DB;
 }
 footer{
    margin-top: 5%;
