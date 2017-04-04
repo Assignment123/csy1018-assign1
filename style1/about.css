@@ -31,6 +31,12 @@ header ul li a{
 header ul li:hover{
   background:  #9370DB;
 }
+section{
+  color: black;
+}
+.bottom{
+  color: black;
+}
 footer{
   margin-top: 5%;
 }
