@@ -41,15 +41,15 @@ section{
   padding:2%; color: black;
 }
 .null1{
-  width: 22%; border: 3px solid black; padding-top: 10px; padding-bottom: 10px; margin-left: 2%;
+  width: 22%; border: 2px solid black; padding-top: 10px; padding-bottom: 10px; margin-left: 2%;
 }
 .form input[type=text]{
-  height: 50%;
+  height: 60%;
 }
 .bottom{
   padding: 2%;
   color:black;width: 75%;
-  border: 3px solid black;
+  border: 2px solid black;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -115,4 +115,5 @@ footer{
 
   .below h3 p{
     text-align: center;
+}
 }
