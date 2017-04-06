@@ -1,0 +1,129 @@
+  body{
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    background-image: url("wall1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+  header{
+    text-align: center;
+    padding: 3%;
+  }
+  header h2{
+    color: black;
+    font-family: "Gabriola", Gabriola, serif;
+  }
+  h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  header ul{
+    display: flex;
+    flex-direction: row;
+  }
+  header ul li{
+    margin: 1%;
+    padding: 0.2%;
+    flex-grow: 1;
+    background: #BA55D3;
+    color:black;
+    border-radius: 18%;
+    font-family: "Bradley Hand ITC", Bradley,serif;
+   font-style: normal;
+ }
+  header ul li a{
+    color: black;
+  }
+  header ul li:hover{
+    background:  #9370DB;
+  }
+  section{
+    color: black;
+     display: flex;
+     flex-direction: row;
+   }
+   .bottom{
+     color: black;
+     width: 60%;
+     border: 1px solid black;
+     border-radius: 10px;
+     padding: 2%;
+     margin-top: 2%;
+     margin-left: 20%;
+     background: #77318a;
+   }
+   .bottom p{
+     text-align: justify;
+      margin-top: 2%;
+    }
+    .bottom h5{
+      text-align: right;
+    }
+    .null{
+      width: 40%;
+      background: transparent;
+    }
+    footer{
+      margin-top: 5%;
+    }
+    .below{
+      text-align: right;
+       color: black;
+     }
+
+     @media all and (max-width:600px){
+       header{
+         width: 94%;
+       }
+
+
+       header ul{
+         flex-direction: column;
+         background: none;
+       }
+
+       header ul li{
+         margin-bottom: 10px;
+       }
+
+       section{
+         width: 100%;
+         flex-direction: column;
+       }
+
+       .bottom{
+         width: 96%;
+         margin-left: 0px;
+       }
+
+       .null{
+         display: none;
+       }
+
+       footer{
+         width: 94%;
+         flex-direction: column;
+       }
+
+       .down{
+         width: 94%;
+         margin-left: 15%;
+       }
+
+       .below{
+         width: 94%;
+       }
+
+       .below h3 p{
+         text-align: center;
+       }

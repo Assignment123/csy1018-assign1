@@ -1,7 +1,8 @@
 body{
-  font-style: italic; font-size: 20px; color: white; background-image: url("image3.jpg");
+  font-style: italic; font-size: 20px; color: white; background-image: url("wall1.jpg");
 background-repeat: no-repeat;
 background-size: cover;
+background-attachment: fixed;
 }
 header{
   text-align: center; padding: 3%;
@@ -33,15 +34,85 @@ header ul li:hover{
   background:  #9370DB;
 }
 
+section{
+  display: flex;flex-direction: row;
+}
+.null1{
+  padding:2%; color: black;
+}
+.null1{
+  width: 22%; border: 3px solid black; padding-top: 10px; padding-bottom: 10px; margin-left: 2%;
+}
 .form input[type=text]{
   height: 50%;
 }
 .bottom{
-  color:black;
+  padding: 2%;
+  color:black;width: 75%;
+  border: 3px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.null{
+  width: 25%;
 }
 footer{
   margin-top: 5%;
 }
 .below{
   text-align: right; color: black;
+}
+
+@media all and (max-width:600px){
+  header{
+    width: 94%;
+  }
+
+
+  header ul{
+    flex-direction: column;
+    background: none;
+  }
+
+  header ul li{
+    margin-bottom: 10px;
+  }
+
+  section{
+    width: 100%;
+    flex-direction: column;
+  }
+  textarea{
+    width: 250px;
+  }
+
+  .bottom{
+    width: 96%;
+    margin-left: 0px;
+  }
+
+  .null{
+    display: none;
+  }
+  .null1{
+     width: 94%; margin: 2%; margin-top: 15px;
+  }
+
+  footer{
+    width: 94%;
+    flex-direction: column;
+  }
+
+  .down{
+    width: 94%;
+    margin-left: 15%;
+  }
+
+  .below{
+    width: 94%;
+  }
+
+  .below h3 p{
+    text-align: center;
 }
