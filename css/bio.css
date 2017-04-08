@@ -1,0 +1,147 @@
+/*Sudrishya section
+UN ID:17439845*/
+
+  body{
+    font-size: 20px;
+    color: black;
+    background:#bebdbf;/*adds background color*/
+    margin: 0 auto;
+  }
+  .upper{
+    background: #A07EB0;
+  }
+/*header section*/
+  header{
+    text-align: center;
+    padding: 2%;
+    color: purple;
+    background: #A07EB0;
+  }
+  header h2{
+    color: black;
+    font-family: "Gabriola", Gabriola, serif;/*provides font family*/
+    font-size: 50px;
+  }
+  h1,h2,h3,h4,h5,h6,p{
+  margin: 0px;
+  padding: 0px;
+  }
+  ul{
+    list-style: none;/*removes the design of listed item*/
+  }
+  a{
+    text-decoration: none;
+  }
+  .upper{
+    background: #67426d;
+    padding: 0%;
+
+  }
+  .upper ul{
+    display: flex;
+    flex-direction: row;/*text appears in row*/
+    flex-grow: 1;
+    padding: 2%;
+  }
+  .upper ul li{
+    margin: 1%;
+    padding: 0.2%;
+    flex-grow: 1;
+    color: white;
+    font-family: "Times New Roman", Arial,serif;/*gives font family*/
+    font-style: normal;
+    justify-content: space-around;/*justifies the content*/
+    text-align: center;/*justifies the content*/
+  }
+  .upper ul li a{
+    color: black;
+    display: block;
+    text-align: center;
+  }
+  .upper ul li a:hover{
+    color: white;
+  }
+  /*section part*/
+  section{
+    color: black;
+    display: flex;
+    flex-direction: row;
+   }
+   .bottom{
+     color: black;
+     width: 70%;
+     border: 1px solid black;/*provides border to the division*/
+     border-radius: 10px;/*adds the curved edges to the division*/
+     padding: 2%;
+     margin:20%;
+     background: #ae90c2;
+   }
+   .bottom p{
+     text-align: justify;/*justifies the content*/
+      margin-top: 2%;
+    }
+    .bottom h5{
+      text-align: right;
+    }
+/*footer part*/
+    footer{
+      margin-top: 5%; background: #67426d; padding: 2%;
+    }
+    .below{
+      text-align: right;
+      color: black;
+     }
+/*mobile resonsive*/
+     @media all and (max-width:600px){
+/*header part*/
+header{
+  width: 96%;
+}
+
+.upper{
+  width: 100%;
+}
+
+.upper ul{
+  width: 96%;
+  display: flex;
+  flex-direction: column;/*text displys in column*/
+  background: none;
+}
+
+.upper ul li{
+  margin-bottom: 10px;
+}
+/*section part*/
+section{
+  width: 96%;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+ .bottom{
+    width: 96%;
+    margin-left: 4px;
+}
+  .null{
+    display: none;
+}
+  /*footer part*/
+  footer{
+    width: 96%;
+    flex-direction: column;
+}
+
+  .down{
+    width: 100%;
+    text-align: center;
+}
+
+  .below{
+     width: 100%;
+     text-align: center;
+ }
+
+  .below h3 p{
+    text-align: center;
+  }
+}

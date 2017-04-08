@@ -1,0 +1,206 @@
+
+/*Sudrishya section
+UN ID:17439845*/
+body{
+    font-size: 20px;
+    color: black;
+    background:#bebdbf;
+    margin: 0 auto;
+  }
+
+  .upper{
+    background: #A07EB0;
+  }
+/*header part*/
+  header{
+    text-align: center;/*moves the text in center*/
+    padding: 2%;
+    color: purple;
+    background: #A07EB0;
+  }
+  header h2{
+    color: black;
+    font-family: "Gabriola", Gabriola, serif;/*gives font to the text*/
+    font-size: 50px;
+  }
+  h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  .upper{
+    background: #67426d;
+  }
+
+  .upper ul{
+    display: flex;
+    flex-direction: row;/*gives the text in row part*/
+    flex-grow: 1;
+    padding: 2%;
+  }
+  .upper ul li{
+    margin: 1%;
+    padding: 0.2%;
+    flex-grow: 1;
+    color: white;
+    font-family: "Times New Roman", Arial,serif;/*gives font family*/
+    font-style: normal;
+    justify-content: space-around;/*justifies the content*/
+    text-align: center;/*moves the text in center*/
+  }
+  .upper ul li a{
+    color: black;
+    display: block;
+    text-align: center;
+  }
+  .upper ul li a:hover{/*provides hover to the text*/
+    color: white;
+  }
+
+
+  /*.photo img{
+    transition: width 2s, height 2s;
+  }
+  .photo img:hover{
+    width: 550px;
+    height: 550px;
+  }*/
+  /*section part*/
+  section{
+    display: flex;
+    flex-direction: row;
+    background: #bebdbf;
+    margin-top: 0px;
+    height: 300px;
+  }
+  .photo{
+    width: 25%;
+  }
+  .photo {
+  position: relative;
+  overflow: hidden;
+}
+.images {
+  background: url(photo.jpg);
+  position: absolute;
+  height: 500%;
+  width: 300%;
+  animation: slideshow 10s linear infinite;
+}
+
+@keyframes slideshow {
+  0%    { left: 0; }
+  100%  { left: -200%; }
+  }
+  .photo img{
+    margin-left: 2%;
+    padding: 2%;
+  }
+  .bottom{
+    width:75%;
+    margin-left: 2%;
+    padding: 2%;
+    color: black;
+    border: 1px solid #1e1e1e;/*provides border to the division */
+    margin-right: 2%;
+    border-radius: 15px;/*gives curve edges to the division*/
+    background: #A07EB0;
+
+  }
+  .bottom p{
+    color: black;
+    text-align: justify;
+  }
+/*footer part*/
+  footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    background: #67426d;
+    padding: 2%;
+  }
+  .down{
+    width: 50%;
+  }
+  .below img{
+    margin-top: 2%;
+  }
+  .below{
+    width: 50%;
+    color: black;
+  }
+  .below h3{
+    color: black;
+    text-align: right;
+  }
+/*provides mobile responsive to the web pages*/
+  @media all and (max-width:600px){
+
+    /*header part*/
+    header{
+      width: 96%;
+    }
+
+    .upper{
+      width: 100%;
+    }
+
+    .upper ul{
+      width: 96%;
+      display: flex;
+      flex-direction: column;
+      background: none;
+    }
+
+    .upper ul li{
+      margin-bottom: 10px;
+      width: 99.6%;
+    }
+    /*section part*/
+    section{
+      width: 96%;
+      display: flex;
+       flex-direction: column;
+    }
+
+    .photo{
+      width: 100%;
+    }
+
+    .photo img{
+      width: 100%;
+      transition: none;
+      margin-left: 0px;
+    }
+
+    .photo img:hover{
+      width: 100%;
+    }
+
+    .bottom{
+      width: 96%;
+    }
+    /*footer part*/
+    footer{
+      width: 96%;
+      flex-direction: column;
+    }
+
+    .down{
+      width: 96%;
+      text-align: center;
+    }
+
+    .below{
+      width: 96%;
+    }
+
+    .below h3{
+      text-align: center;
+    }
+  }

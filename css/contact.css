@@ -1,0 +1,188 @@
+
+/*Sudrishya section
+UN ID:17439845*/
+  body{
+    font-size: 20px;
+    color: black;
+    background:#bebdbf;
+    margin: 0 auto;
+  }
+
+  .upper{
+    background: #A07EB0;
+  }
+  /*header part*/
+  header{
+    text-align: center;/*moves tecxt to the center*/
+    padding: 2%;
+    color: purple;
+    background: #A07EB0;
+  }
+  header h2{
+    color: black;
+    font-family: "Gabriola", Gabriola, serif;/*gives font family*/
+    font-size: 50px;
+  }
+  h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  .upper{
+    background: #67426d;
+    padding: 0%;
+  }
+  .upper ul{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 2%;
+  }
+  .upper ul li{
+    margin: 1%;
+    padding: 0.2%;
+    flex-grow: 1;
+    color: white;
+    font-family: "Times New Roman", Arial,serif;/*gives font family*/
+    font-style: normal;
+    justify-content: space-around;/*justifies the content*/
+    text-align: center;/*moves the text to center*/
+  }
+  .upper ul li a{
+    color: black;
+    display: block;
+    text-align: center;
+  }
+  .upper ul li a:hover{/*provides hover*/
+    color: white;
+  }
+  /*section part*/
+  section{
+    display: flex;
+    flex-direction: row;/*text appears in row form*/
+  }
+  .null1{
+    padding:2%;
+    color: black;
+  }
+  .null1 p{
+    width: 22%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 2%;
+  }
+  .border{
+    border: 1px solid black;/*provies border to the division*/
+    padding: 2%;
+    background: #ae90c2;
+    border-radius: 15px;/*adds cure edges to the division*/
+  }
+  input[type=text]{
+    height: 60%;
+    width:  60%;
+  }
+
+  input[type=radio]{
+    margin-left: 60px;
+  }
+  input[type=submit]{
+    height: 90%;
+    width:  25%;
+  }
+   textarea[name=feedbacks]{
+     margin-left: 5%;
+     margin-bottom: 5%;
+   }
+  .bottom{
+    padding: 2%;
+    color: black;
+    width: 75%;
+    border: 1px solid #1e1e1e;/*provides border to the division*/
+    border-radius: 15px;/*adds curve edges to the division*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 13%;
+    background: #ae90c2;
+  }
+  .null{
+    width: 25%;
+  }
+  /*footer part*/
+  footer{
+    margin-top: 5%;
+    background: #67426d;
+    padding: 2%;
+  }
+  .below{
+    text-align: right;/*moves the text in right*/
+    color: black;
+  }
+  /*provides mobile responsive to the webpage*/
+  @media all and (max-width:600px){
+    /*header part*/
+    header{
+      width: 96%;
+    }
+
+    .upper{
+      width: 100%;
+    }
+
+    .upper ul{
+      width: 96%;
+      display: flex;
+      flex-direction: column;/*text displys in column*/
+      background: none;
+    }
+
+    .upper ul li{
+      margin-bottom: 10px;
+    }
+    /*section part*/
+    section{
+      width: 96%;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+    textarea{
+      width: 80%;
+    }
+
+    .bottom{
+      width: 96%;
+      margin-left: 1px;
+    }
+
+    .null{
+      display: none;
+    }
+    .null1{
+      width: 94%;
+      margin: 2%;
+      margin-top: 15px;
+    }
+    /*footer part*/
+    footer{
+      width: 96%;
+      flex-direction: column;
+    }
+
+    .down{
+      width: 100%;
+      text-align: center;
+    }
+
+    .below{
+      width: 100%;
+      text-align: center;
+    }
+
+    .below h3 p{
+      text-align: center;
+    }
+  }
