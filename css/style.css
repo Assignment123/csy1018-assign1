@@ -28,7 +28,7 @@ body{
     padding: 0px;
   }
   ul{
-    list-style: none;
+    list-style: none;/*removes the design of listed item*/
   }
   a{
     text-decoration: none;

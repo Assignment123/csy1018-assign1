@@ -13,7 +13,7 @@ UN ID:17439845*/
   }
   /*header part*/
   header{
-    text-align: center;/*moves tecxt to the center*/
+    text-align: center;/*moves text to the center*/
     padding: 2%;
     color: purple;
     background: #A07EB0;
@@ -28,7 +28,7 @@ UN ID:17439845*/
     padding: 0px;
   }
   ul{
-    list-style: none;
+    list-style: none;/*removes the design of listed item*/
   }
   a{
     text-decoration: none;
@@ -80,7 +80,7 @@ UN ID:17439845*/
     border: 1px solid black;/*provies border to the division*/
     padding: 2%;
     background: #ae90c2;
-    border-radius: 15px;/*adds cure edges to the division*/
+    border-radius: 15px;/*adds curve edges to the division*/
   }
   input[type=text]{
     height: 60%;
@@ -136,7 +136,7 @@ UN ID:17439845*/
     .upper ul{
       width: 96%;
       display: flex;
-      flex-direction: column;/*text displys in column*/
+      flex-direction: column;/*text displays in column*/
       background: none;
     }
 
