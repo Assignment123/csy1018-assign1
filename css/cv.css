@@ -59,144 +59,141 @@ body{
   }
   .upper ul li a:hover{/*provides hover*/
     color: white;
+  }
+  /*section part*/
+  section{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  h2{
+    padding: 1%;
+  }
+  .top{
+    margin:1%;
+    border-radius: 10px;/*gives curve edges to the division*/
+    width: 60%;
+    padding: 2%;
+    border: 1px solid #1e1e1e;/*provides a border to the division*/
+  }
+  .top:hover{/*gives hover*/
+    background: #A07EB0;
+  }
+  .bottom{
+    margin:1%;
+    border-radius: 10px;
+    width: 60%;
+    padding: 2%;
+    border: 1px solid #1e1e1e;
+  }
+  .bottom:hover{
+    background: #A07EB0;
+  }
+  .right{
+    margin:1%;
+    color: black;
+    border-radius: 10px;
+    width: 60%;
+    padding: 2%;
+    border: 1px solid #1e1e1e;
+  }
+  .right:hover{
+    background:   #A07EB0;
+  }
+  .middle{
+    margin:1%;
+    border-radius: 10px;
+    width: 60%;
+    padding: 2%;
+    border: 1px solid #1e1e1e;
+  }
+  .middle:hover{
+    background:   #A07EB0;
+  }
+  .left{
+    margin:1%;
+    color: black;
+    border-radius: 10px;
+    width: 60%;
+    padding: 2%;
+    border: 1px solid #1e1e1e;
+  }
+  .left:hover{
+    background:   #A07EB0;
+  }
+  /*footer part*/
+  footer{
+    margin-top: 5%;
+    background: #67426d;
+    padding: 2%;
+  }
+  .below{
+    text-align: right;
+    color: black;
+  }
+  /*provides mobile responsive to the website*/
+  @media all and (max-width:600px){
+    header{
+      width: 96%;
+    }
+    .upper{
+      width: 100%;
+    }
+    .upper ul{
+      width: 96%;
+      display: flex;
+      flex-direction: column;/*text displys in column*/
+      background: none;
+    }
+    .upper ul li{
+      margin-bottom: 10px;
     }
     /*section part*/
     section{
-      color: black;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-    h2{
-      padding: 1%;
+      width: 96%;
+      flex-direction: column;
+      margin-bottom: 10px;
     }
     .top{
-      margin:1%;
-      border-radius: 10px;/*gives curve edges to the division*/
-      width: 60%;
-      padding: 2%;
-      border: 1px solid #1e1e1e;/*provides a border to the division*/
-    }
-    .top:hover{/*gives hover*/
-      background: #A07EB0;
+      width: 96%;
+      margin: 2%;
+      margin-bottom: 8px;
     }
     .bottom{
-      margin:1%;
-      border-radius: 10px;
-      width: 60%;
-      padding: 2%;
-      border: 1px solid #1e1e1e;
-    }
-    .bottom:hover{
-      background:   #A07EB0;
+      width: 96%;
+      margin: 2%;
+      margin-bottom: 8px;
     }
     .right{
-      margin:1%;
-      color: black;
-      border-radius: 10px;
-      width: 60%;
-      padding: 2%;
-      border: 1px solid #1e1e1e;
-    }
-    .right:hover{
-      background:   #A07EB0;
+      width: 96%;
+      margin: 2%;
+      margin-bottom: 8px;
     }
     .middle{
-      margin:1%;
-      border-radius: 10px;
-      width: 60%;
-      padding: 2%;
-      border: 1px solid #1e1e1e;
-    }
-    .middle:hover{
-      background:   #A07EB0;
+      width: 96%;
+      margin: 2%;
+      margin-bottom: 8px;
     }
     .left{
-      margin:1%;
-      color: black;
-      border-radius: 10px;
-      width: 60%;
-      padding: 2%;
-      border: 1px solid #1e1e1e;
+      width: 96%;
+      margin: 2%;
+      margin-bottom: 8px;
     }
-    .left:hover{
-      background:   #A07EB0;
+    .null{
+      display: none;
     }
     /*footer part*/
     footer{
-      margin-top: 5%;
-      background: #67426d;
-      padding: 2%;
+      width: 96%;
+      flex-direction: column;
+    }
+    .down{
+      width: 100%;
+      text-align: center;
     }
     .below{
-      text-align: right;
-      color: black;
+      width: 100%;
+      text-align: center;
     }
-    /*provides mobile responsive to the website*/
-    @media all and (max-width:600px){
-      header{
-        width: 96%;
-      }
-
-      .upper{
-        width: 100%;
-      }
-
-      .upper ul{
-        width: 96%;
-        display: flex;
-        flex-direction: column;/*text displys in column*/
-        background: none;
-      }
-
-      .upper ul li{
-        margin-bottom: 10px;
-      }
-      /*section part*/
-      section{
-        width: 96%;
-        flex-direction: column;
-        margin-bottom: 10px;
-      }
-      .top{
-        width: 96%;
-        margin: 2%;
-        margin-bottom: 8px;
-      }
-      .bottom{
-        width: 96%;
-        margin: 2%;
-        margin-bottom: 8px;
-      }
-      .right{
-        width: 96%;
-        margin: 2%;
-        margin-bottom: 8px;
-      }
-      .middle{
-        width: 96%;
-        margin: 2%;
-        margin-bottom: 8px;
-      }
-      .left{
-        width: 96%;
-        margin: 2%;
-        margin-bottom: 8px;
-      }
-      .null{
-        display: none;
-      }
-      /*footer part*/
-      footer{
-        width: 96%;
-        flex-direction: column;
-      }
-      .down{
-        width: 100%;
-        text-align: center;
-      }
-      .below{
-        width: 100%;
-        text-align: center;
-      }
-    }
+  }
